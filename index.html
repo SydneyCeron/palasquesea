@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Unete al Next Gen Hub</h1>
+    <p>El espacio  donde los proyectos de 20-y-tantos cobran vida. Resgistrate para conectar</p>
+    <hr>
+    <main>
+        <form action="index.html">
+            <fieldset  style="border: 1px solid #ccc; 
+                padding: 20px; 
+                margin-bottom: 20px; 
+                border-radius: 8px;">
+                
+                <legend style="color: #007bff; 
+                    font-weight: bold;">Datos de Acceso</legend>
+                <label>Nombre de Usuario (o Gamertag)</label><br>
+                
+                <input type="text" placeholder="Ej:PixelMaster20" 
+                    required style="width: 100%; 
+                                   padding: 10px; 
+                                   margin-bottom: 15px; 
+                                   box-sizing: border-box;">
+                <label>Correo Electronico</label><br>
+                <input type="email" placeholder="tu@gamil.com"
+                    required style="width: 100%;
+                                   padding: 10px; 
+                                   margin-bottom: 15px; 
+                                   box-sizing: border-box;">
+                <label> Contraseña</label>
+                <input type="text" placeholder="" 
+                    required style="width: 100%; 
+                                   padding: 10px; 
+                                   margin-bottom: 15px; 
+                                   box-sizing: border-box;">
+                
+                <h2>Sobre ti:</h2>
+
+                 <label>¿Cual es tu enfoque principal?</label><br>
+                    <select style="width: 100%; padding: 10px; margin-bottom: 15px; box-sizing: border-box;">
+                        <option value="Programacion/tech"> Programacion / tech</option>
+                        <option value="Gaming Pro">Gaming Pro</option>
+                        <option value="Creacion de Contenido"> Creacion de Contenido</option>
+                    </select>
+                
+                <div>
+                    <label> Nivel de experiencia:</label><br>
+                    <input type="radio" id="novato" name="nivel" value="novato">
+                    <label for="novato">Explorando</label><br>
+                    <input type="radio" id="Intermedio" name="nivel" value="Intermedio">
+                    <label for="Intermedio">En Proceso</label><br>
+                    <input type="radio" id="pro" name="nivel" value="pro">
+                    <label for="pro">Ya monetizando</label>
+                </div>
+                <br>
+                <div>
+                    <label for="bio">Cuentame un poco sobre tu setup o metas:</label>
+                    <textarea name="bio" id="bio" rows="4" cols="40" placeholder="¿Que estas construyendo ahora mismo?"></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">¡Dar el salto!</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
